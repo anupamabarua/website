@@ -25,4 +25,19 @@ nav img{
     flex: 1;
     text-align: right;
 }
-.nav-links
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: rgb(0, 0, 0) ;
+    text-decoration: none;
+    fort size: 13px;
+}
+.nav-links ul li ::after{
+    content: 100%;
+    height: 2px;
+    
+}
