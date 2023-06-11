@@ -34,10 +34,34 @@ nav img{
 .nav-links ul li a{
     color: rgb(0, 0, 0) ;
     text-decoration: none;
-    fort size: 13px;
+    font size: 13px;
 }
 .nav-links ul li ::after{
-    content: 100%;
+    content: ' ';
+    width: 0%;
     height: 2px;
-    
+    background: #6936f4;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul list-style:hover::after{
+    width: 100%;
+}
+.text-box{
+    width: 90%;
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.text-box h1{
+    font-size: 62px;
+}
+.text-box p{
+    margin: 10px 0 40px;
+    font-size: 14px;
+    color: black;
 }
